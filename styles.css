@@ -57,5 +57,44 @@
     background-color: red;
     color:white
     border: none;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+.about-title{
+    text-align: center;
+    padding-top: 20px;
+}
+.box{
+    width: 330px;
+    height: 550px;
+    box-shadow:5px 5px 20px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
 
+}
+.con{
+    width: 70px;
+}
+.box-btn{
+    background-color: gray;
+    margin-top: 10px;
+}
+.box-title{
+    padding: 10px;
+
+}
+.box-description{
+    padding: 5px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
 }
